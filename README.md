@@ -4,6 +4,8 @@
 
 In this lab we'll walkthrough an example of image captioning in Pytorch. We'll begin by downloading and training on the coco image dataset, review data augmentation with croping, rotating, flipping and resizing images. We'll then build a vocabulary for the image annotations and encode the sequences as captions. Our model for this task includes a pretrained encoder CNN to compute features on each image and the decoder RNN which handles the captioning. I'll show you the results of training and evalution from this model including automatically captioning images not included in the training set.
 
+Slides: [Image_Captioning_PyTorch.pdf](./Image_Captioning_PyTorch.pdf)
+
 ## Run Locally
 
 ### Local Installation
